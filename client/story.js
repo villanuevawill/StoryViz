@@ -7,6 +7,10 @@ angular.module('storyviz.story', [])
     // nodes and links to be rendered in d3
     $scope.data = {};
 
+    $scope.test = 0;
+
+    $scope.testData = {};
+
     // nodes and links organized by chapter
     $scope.dataByChapter = {};
 
